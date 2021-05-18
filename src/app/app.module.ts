@@ -15,6 +15,7 @@ import {HttpClientModule} from '@angular/common/http';
 //模拟数据
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
+import { TestComponent } from './test/test/test.component';
 
 @NgModule({ //每个组件都必须声明在（且只能声明在）一个 NgModule 中。
   declarations: [ //声明
@@ -22,7 +23,8 @@ import { InMemoryDataService } from './in-memory-data.service';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    TestComponent
   ],
   imports: [ //所需外部模块的列表
     BrowserModule,
