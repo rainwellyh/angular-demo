@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'detail/:id', component: HeroDetailComponent },
 
-  { path: 'todolist', component: TodolistComponent },
+  { path: 'todolist', component: TodolistComponent }
 ];
 
 @NgModule({
